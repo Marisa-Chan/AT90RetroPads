@@ -1,10 +1,14 @@
 AT90USB162 RetroPad
+
 2 x MD2 controller + 2 Nes controller to USB converter
 
 ############
 Scheme.pdf - wire scheme, how it's organised for me.
+
 Arduino Profile - AT90USB162 integration into Arduino IDE
+
 Firmware - device firmware
+
 hvpe - firmware of highvoltage programmer for trebleshoot fuses bugs
 
 ############
@@ -22,8 +26,11 @@ Content of `boards.txt` (Arduino Profile) must be added into `boards.txt` of you
 
 
 Device firmware created based on:
+
 https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-1.0/Joystick2
+
 https://jonthysell.com/2014/09/29/sega-genesis-controllers-and-arduino-revisited/
+
 
 
 HVPE firmware is modified version of https://mightyohm.com/blog/wp-content/uploads/2008/09/hvfuse.pde with additional steps and serial output.
