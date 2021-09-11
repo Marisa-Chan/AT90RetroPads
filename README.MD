@@ -32,6 +32,8 @@ https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-1.0/Joystick2
 https://jonthysell.com/2014/09/29/sega-genesis-controllers-and-arduino-revisited/
 
 
+Arduino Profile is based on: https://github.com/mattairtech/ArduinoCore-avr
+
 
 HVPE firmware is modified version of https://mightyohm.com/blog/wp-content/uploads/2008/09/hvfuse.pde with additional steps and serial output.
 Schematic and info is similar to https://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/
