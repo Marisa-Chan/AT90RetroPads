@@ -1,0 +1,16 @@
+at90.name=AT90USB162
+
+at90.build.mcu=at90usb162
+at90.build.f_cpu=8000000L
+at90.build.core=arduino
+at90.build.variant=at90usb162
+
+at90.upload.tool=avrdude
+at90.upload.maximum_size=12288
+at90.upload.maximum_data_size=512
+at90.build.vid=0x0e8f
+at90.build.pid=0x3013
+at90.build.usb_product="RetroPads"
+at90.build.usb_manufacturer="Simple"
+at90.build.board=CDC_HID
+at90.build.extra_flags=-D__AVR_AT90USB162__ {build.usb_flags}
